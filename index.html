@@ -3,9 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Debate Club</title>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        serif: ['"Gowun Batang"', 'Georgia', 'serif'],
+                        sans: ['system-ui', 'sans-serif'],
+                    },
+                    colors: {
+                        cream: '#fdfcf8',
+                        beige: '#f5f1e8',
+                        charcoal: '#4a4a4a',
+                        'dark-text': '#1a1a1a',
+                    }
+                }
+            }
+        }
+    </script>
 </head>
-<body>
-    
+
+<body class="bg-gray-200 text-gray-900 font-sans w-full">
+
+
+<nav class="bg-gray-100 border-b border-gray-300 shadow-sm">
+    <ul class="flex space-x-10 px-8 py-4 text-gray-700 font-medium">
+        <li><a href="#" class="hover:text-black transition">Home</a></li>
+        <li><a href="#" class="hover:text-black transition">Details</a></li>
+        <li><a href="#" class="hover:text-black transition">News</a></li>
+        <li><a href="#" class="hover:text-black transition">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="px-6 py-6 space-y-6">
+
+
+    <div class="bg-yellow-100 border border-yellow-200 rounded-lg px-6 py-4 flex justify-between items-center">
+        <p class="text-gray-700">
+            Announcement: Spring ASB Election is now live for voting!
+        </p>
+        <a href="#" class="text-gray-700 underline hover:text-black transition">
+            Survey here
+        </a>
+    </div>
+
+
+    <div class="flex justify-center items-center text-gray-600 py-8">
+        Committed to all students in need
+    </div>
+
+
+it
+
+</div>
+
 </body>
 </html>
+
+
